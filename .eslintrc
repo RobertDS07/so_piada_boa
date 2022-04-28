@@ -1,0 +1,25 @@
+{
+  "extends": ["next", "prettier"],
+  "plugins": ["prettier", "eslint-plugin-import-helpers"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/function-component-definition": ["error", { "namedComponents": "arrow-function" }],
+    "import-helpers/order-imports": [
+			"warn",
+			{
+				"newlinesBetween": "always",
+				"groups": [
+					["/^react/", "/^next/"],
+					"module",
+					"/^@chakra/",
+					"/^components/",
+					"/^.components/",
+					"/^layouts/",
+					["/^styles/", "/^.styles/"],
+					["parent", "sibling", "index"]
+				],
+				"alphabetize": { "order": "asc", "ignoreCase": true }
+			}
+		]
+  }
+}

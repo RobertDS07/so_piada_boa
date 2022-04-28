@@ -1,0 +1,20 @@
+import colors from "./colors";
+import components from "./components";
+
+const theme = {
+  fonts: {
+    body: "Avenir, sans-serif",
+  },
+  breakpoints: {
+    xs: "450px",
+    sm: "600px",
+    md: "900px",
+    lg: "1200px",
+    xl: "1536px",
+    "2xl": "1980px",
+  },
+  colors,
+  components,
+};
+
+export default theme;

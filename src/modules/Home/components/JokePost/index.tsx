@@ -1,6 +1,6 @@
 import { As, Flex, ResponsiveValue, Text } from "@chakra-ui/react";
 
-import useJokePost, { useJokePostProps } from "hooks/useJokePost";
+import useJokePost, { UseJokePostProps } from "hooks/useJokePost";
 
 import { JokeCreatedAtTextProps } from "./components/JokeCreatedAtText";
 import JokePostFooter, {
@@ -13,10 +13,10 @@ import JokePostHeader, {
 export interface JokePostProps
   extends JokePostHeaderProps,
     Pick<JokePostFooterProps, "jokeLikes" | "jokeAuthor" | "jokeDislikes">,
-    Pick<JokeCreatedAtTextProps, "jokeCreatedAt">,
-    Pick<useJokePostProps, "mutateJoke"> {
+    Pick<JokeCreatedAtTextProps, "jokeCreatedAt"> {
   joke: string;
   width: ResponsiveValue<string>;
+  mutateJoke: UseJokePostProps["mutateJoke"];
 
   onClick?: () => void;
   as?: As<any>;

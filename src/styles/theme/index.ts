@@ -1,5 +1,6 @@
-import colors from "./colors";
 import components from "./components";
+
+import colors from "./colors";
 
 const theme = {
   fonts: {

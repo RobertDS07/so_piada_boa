@@ -3,6 +3,7 @@ import { LinkProps as ChakraLinkProps } from "@chakra-ui/react";
 import HandleNextLink, {
   HandleNextLinkProps,
 } from "./components/HandleNextLink";
+
 import * as S from "./styles";
 
 export interface LinkProps

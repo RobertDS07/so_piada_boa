@@ -24,7 +24,7 @@ const Welcome = () => {
         h="441px"
         w="122px"
         pos="absolute"
-        bottom="-200px"
+        bottom="-210px"
         left="-60px"
         objectFit="contain"
         src="/assets/images/microfone-realista.png"

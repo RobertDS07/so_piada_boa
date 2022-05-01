@@ -13,6 +13,9 @@ const theme = {
     xl: "1536px",
     "2xl": "1980px",
   },
+  radii: {
+    "3xl": "30px",
+  },
   colors,
   components,
 };

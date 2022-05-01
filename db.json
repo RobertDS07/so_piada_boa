@@ -1,0 +1,48 @@
+{
+  "jokes": [
+    {
+      "id": 1,
+      "description": "Um rapaz chegou num velório e a primeira coisa que perguntou foi: \n– Qual é a senha do Wi-Fi? \nUm parente incomodado disse: \n– Respeite o falecido! \nE ele perguntou: \n– É tudo junto?",
+      "user": {
+        "name": "Marcelo Azevedo",
+        "email": "marcelo@triider.com"
+      },
+      "likes": 11,
+      "dislike": 6,
+      "created": "2020-12-08T11:21:00Z"
+    },
+    {
+      "id": 2,
+      "description": "O pai chega no cartorio para registrar seu filho e o funcionário pergunta,qual o nome da criança? E o pai responde é Edson! Mas depois o funcionário descobre que o filho não tinha nascido ainda, estava na barriga da mulher, com isso o funcionário fala para o pai que não pode fazer o registro porque a criança ainda não nasceu. Depois de um bom tempo o pai retorna no cartorio novamente, com o bêbê no colo, e diz: Quero registrar meu filho e o funcionário pergunta qual o nome? E o pai responde: É Pele. O funcionário falou: Não era Edson? O pai responde: EDSON ERA ANTES DO NASCIMENTO!",
+      "user": {
+        "name": "Fábio Borges",
+        "email": "fabio@triider.com"
+      },
+      "likes": 3,
+      "dislike": 0,
+      "created": "2020-12-08T11:21:00Z"
+    },
+    {
+      "id": 3,
+      "description": "Fui no café e perguntei se o salgado era de hoje.\n– Não, é de ontem.\n– E como faço pra comer o de hoje?\n– Volte amanhã!",
+      "user": {
+        "name": "Gregory Lagranha",
+        "email": "gregory@triider.com"
+      },
+      "likes": 2,
+      "dislike": 0,
+      "created": "2020-12-08T11:21:00Z"
+    },
+    {
+      "id": 4,
+      "description": "O funcionário reclama do baixo salário que recebe e resolve reclamar com o patrão:\n\n— Meu salário não está compatível com as minhas aptidões!\n\n— Eu sei, eu sei! Mas não podemos deixar você morrer de fome.",
+      "user": {
+        "name": "Thales Sarubbi",
+        "email": "thales@triider.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2020-12-08T11:21:00Z"
+    }
+  ]
+}

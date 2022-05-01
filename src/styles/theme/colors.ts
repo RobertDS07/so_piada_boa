@@ -6,6 +6,10 @@ const colors = {
     main: MAIN_RED,
     500: MAIN_RED,
   },
+  gray: {
+    200: "#E9E4DA",
+    300: "#BAB6AE",
+  },
 };
 
 export default colors;

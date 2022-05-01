@@ -5,12 +5,12 @@ import * as jokesRepository from "services/api/modules/jokes/jokesRepository";
 import { JokePostProps } from "../modules/Home/components/JokePost";
 import { BUTTONS_IDS } from "../modules/Home/components/JokePost/components/JokePostFooter";
 
-export interface useJokePostProps
+export interface UseJokePostProps
   extends Pick<JokePostProps, "onClick" | "jokeId"> {
   mutateJoke: (updatedJoke) => Promise<any>;
 }
 
-const useJokePost = ({ onClick, jokeId, mutateJoke }: useJokePostProps) => {
+const useJokePost = ({ onClick, jokeId, mutateJoke }: UseJokePostProps) => {
   const toast = useToast();
 
   const handleOnClick = (e) => {

@@ -1,0 +1,9 @@
+{
+	"name": "Só piada boa",
+	"short_name": "Só piada boa",
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#c8051cca",
+    "background_color": "#c8051cca",
+    "description": "O lugar onde você ri sem ver o tempo passar"
+}

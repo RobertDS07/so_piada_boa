@@ -1,8 +1,11 @@
 {
-  "extends": ["next", "prettier"],
-  "plugins": ["prettier", "eslint-plugin-import-helpers"],
+  "parser": "@typescript-eslint/parser",
+  "extends": ["next", "prettier", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["prettier", "eslint-plugin-import-helpers", "@typescript-eslint"],
   "rules": {
-    "prettier/prettier": "error",
+	"prettier/prettier": "error",
+	"react/display-name": "off",
+	"@typescript-eslint/no-explicit-any": "off",
     "react/function-component-definition": ["error", { "namedComponents": "arrow-function" }],
     "import-helpers/order-imports": [
 			"warn",
@@ -12,6 +15,7 @@
 					["/^react/", "/^next/"],
 					"module",
 					"/^@chakra/",
+					"/services/",
 					"/^components/",
 					"/^.components/",
 					"/^layouts/",

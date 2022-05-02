@@ -1,5 +1,3 @@
-import { format } from "date-fns";
-
 import { Flex, Text } from "@chakra-ui/react";
 
 import JokeCreatedAtText, {

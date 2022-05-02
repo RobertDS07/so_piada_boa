@@ -1,6 +1,6 @@
 # Triider frontend challenge
 
-<img src="https://i.pinimg.com/originals/f1/1c/58/f11c585e2a4f3235de9270e0a2a37016.png" align="right" alt="fake logo" width="120" height="120">
+<img src="https://i.pinimg.com/originals/f1/1c/58/f11c585e2a4f3235de9270e0a2a37016.png" align="right" alt="fake logo" width="60" height="60">
 
 Só piada boa is a better place to you find the better jokes to tell to your friends and have nice moments!
 

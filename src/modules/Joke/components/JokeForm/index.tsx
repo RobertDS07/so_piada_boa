@@ -16,26 +16,34 @@ const JokeForm = () => {
     <form onSubmit={onSubmit}>
       <Flex gap="35px" wrap="wrap">
         <S.Input
+          placeholder="Seu nome"
           isInvalid={!!errors.name}
           wrapperProps={S.inputWrapperProps}
+          helperText={errors.name?.message}
           label={{ children: "Nome:", color: "gray.300" }}
-          {...register("name", { required: true })}
+          {...register("name", { required: "Campo obrigatório" })}
         />
 
         <S.Input
+          placeholder="Seu e-mail"
           isInvalid={!!errors.email}
           wrapperProps={S.inputWrapperProps}
           helperText={errors.email?.message}
           label={{ children: "E-mail:", color: "gray.300" }}
-          {...register("email", { required: true, validate: validateEmail })}
+          {...register("email", {
+            required: "Campo obrigatório",
+            validate: validateEmail,
+          })}
         />
 
         <Textarea
+          placeholder="Nos conte sua melhor piada!"
           isInvalid={!!errors.joke}
           resize="none"
           bgColor="gray.200"
+          helperText={errors.joke?.message}
           label={{ children: "Piada:", color: "gray.300" }}
-          {...register("joke", { required: true })}
+          {...register("joke", { required: "Campo obrigatório" })}
         />
 
         <Flex gap="35px" flex="1" justify="flex-end">

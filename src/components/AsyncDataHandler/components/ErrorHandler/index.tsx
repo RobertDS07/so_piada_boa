@@ -3,7 +3,7 @@ import { Button, Flex, Text } from "@chakra-ui/react";
 import Image from "components/Image";
 
 export interface ErrorHandlerProps {
-  onClickRetry: () => any;
+  onClickRetry: () => void;
 }
 
 const ErrorHandler = ({ onClickRetry }: ErrorHandlerProps) => {

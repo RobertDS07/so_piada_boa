@@ -1,8 +1,8 @@
 import { Button, Flex } from "@chakra-ui/react";
 
 interface FeedbackButtonsProps {
-  onLike: () => any;
-  onDislike: () => any;
+  onLike: () => void;
+  onDislike: () => void;
 }
 
 const FeedbackButtons = ({ onDislike, onLike }: FeedbackButtonsProps) => {

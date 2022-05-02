@@ -6,8 +6,4 @@ const Home: NextPage = () => {
   return <HomeModule />;
 };
 
-export const getStaticProps = () => {
-  return { props: {} };
-};
-
 export default Home;

@@ -6,8 +6,4 @@ const Welcome: NextPage = () => {
   return <WelcomeModule />;
 };
 
-export const getStaticProps = () => {
-  return { props: {} };
-};
-
 export default Welcome;

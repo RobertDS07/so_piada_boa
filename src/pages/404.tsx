@@ -6,8 +6,4 @@ const NotFound: NextPage = () => {
   return <NotFoundModule />;
 };
 
-export const getStaticProps = () => {
-  return { props: {} };
-};
-
 export default NotFound;

@@ -1,4 +1,10 @@
-# Desafio frontend Triider
+# Triider frontend challenge
+
+<img src="https://i.pinimg.com/originals/f1/1c/58/f11c585e2a4f3235de9270e0a2a37016.png" align="right" alt="fake logo" width="120" height="178">
+
+Só piada boa is a better place to you find the better jokes to tell to your friends and have nice moments!
+
+![screenshot](./public/assets/images/site-demo.png)
 
 ## Steps to run the project
 ### Clone

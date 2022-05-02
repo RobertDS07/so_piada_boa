@@ -4,7 +4,7 @@
 
 Só piada boa is a better place to you find the better jokes to tell to your friends and have nice moments!
 
----
+## Screenshot
 ![screenshot](./public/assets/images/site-demo.png)
 
 ## Steps to run the project

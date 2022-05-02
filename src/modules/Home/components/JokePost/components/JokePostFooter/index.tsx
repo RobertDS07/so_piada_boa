@@ -8,8 +8,8 @@ import JokeCreatedAtText, {
 
 export interface JokePostFooterProps
   extends Pick<JokeCreatedAtTextProps, "jokeCreatedAt"> {
-  onLike: () => any;
-  onDislike: () => any;
+  onLike: () => void;
+  onDislike: () => void;
   jokeAuthor: string;
   jokeLikes: number;
   jokeDislikes: number;
@@ -32,7 +32,14 @@ const JokePostFooter = ({
 }: JokePostFooterProps) => {
   return (
     <Flex justify="space-between" align="center">
-      <Text>{jokeAuthor}</Text>
+      <Text
+        maxW={{ base: "100%", sm: "30%" }}
+        overflow="hidden"
+        whiteSpace="nowrap"
+        textOverflow="ellipsis"
+      >
+        {jokeAuthor}
+      </Text>
 
       <Flex gap="20px">
         <Button
@@ -47,6 +54,7 @@ const JokePostFooter = ({
         >
           {jokeLikes}
         </Button>
+
         <Button
           id={BUTTONS_IDS.dislikeButton}
           onClick={onDislike}

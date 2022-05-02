@@ -43,6 +43,138 @@
       "likes": 0,
       "dislike": 0,
       "created": "2020-12-08T11:21:00Z"
+    },
+    {
+      "description": "Sabe o que o melão estava fazendo de mãos dadas com o mamão perto de Copacabana?\nLevando o mamão papaya 🤣🤣🤣🤣🤣",
+      "user": {
+        "name": "Eduarda Gazola",
+        "email": "eduarda@gmail.com"
+      },
+      "likes": 3,
+      "dislike": 0,
+      "created": "2022-05-02T02:02:11.994Z",
+      "id": 5
+    },
+    {
+      "description": "O batman pegou o batmóvel e saiu da batcaverna pra onde ele foi ??? Pra um batzado 🤣🤭🤭🤭😝",
+      "user": {
+        "name": "Eduarda Gazola",
+        "email": "eduarda@gmail.com"
+      },
+      "likes": 2,
+      "dislike": 0,
+      "created": "2022-05-02T02:02:28.177Z",
+      "id": 6
+    },
+    {
+      "description": "Porque o jacaré tirou o filho da escola?\nR.: Porque ele réptil de ano.",
+      "user": {
+        "name": "Yorton Morschbacker",
+        "email": "yorton@gmail.com"
+      },
+      "likes": 1,
+      "dislike": 0,
+      "created": "2022-05-02T02:03:06.717Z",
+      "id": 7
+    },
+    {
+      "description": "Porque o Batman colocou o Bat-móvel no seguro?\nR.: Porque ele tem medo que Robin!",
+      "user": {
+        "name": "Yorton Morschbacker",
+        "email": "yorton@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2022-05-02T02:03:18.005Z",
+      "id": 8
+    },
+    {
+      "description": "Como se faz omelete de chocolate?\nR.: Com ovos de páscoa.",
+      "user": {
+        "name": "Yorton Morschbacker",
+        "email": "yorton@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2022-05-02T02:03:42.912Z",
+      "id": 9
+    },
+    {
+      "description": "Qual nome da doença que o borracheiro morreu ?\nPneumonia",
+      "user": {
+        "name": "Gabriel Shau",
+        "email": "Gabriel@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2022-05-02T02:04:18.636Z",
+      "id": 10
+    },
+    {
+      "description": "O que é um ponto vermelho num furacão ?\nUm redmuinho",
+      "user": {
+        "name": "Gabriel Shau",
+        "email": "Gabriel@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2022-05-02T02:04:27.955Z",
+      "id": 11
+    },
+    {
+      "description": "Pq a galinha estava batendo com a cabeça na parede ? \nPor que ela queria um galo 🐔",
+      "user": {
+        "name": "Gabriel Shau",
+        "email": "Gabriel@gmail.com"
+      },
+      "likes": 2,
+      "dislike": 0,
+      "created": "2022-05-02T02:04:35.446Z",
+      "id": 12
+    },
+    {
+      "description": "O que é um pontinho verde na Antártida?\nUm pingreen",
+      "user": {
+        "name": "Gabriel Shau",
+        "email": "Gabriel@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 0,
+      "created": "2022-05-02T02:04:44.432Z",
+      "id": 13
+    },
+    {
+      "description": "O que é um pontinho preto no avião? \nUma AEROmosca",
+      "user": {
+        "name": "Maurício Mutte",
+        "email": "mauricio@gmail.com"
+      },
+      "likes": 0,
+      "dislike": 2,
+      "created": "2022-05-02T02:05:37.725Z",
+      "id": 14
+    },
+    {
+      "description": "Certa vez, Joãozinho vê dois assaltantes roubando o carro do seu pai… \n- Papai! Papai! Acabaram de roubar o seu carro!\n O pai apavorado pergunta:\n - Você viu como eram os ladrões?\n Então, Joãozinho responde:\n - Não vi mas pode ficar tranquilo que eu anotei a placa…",
+      "user": {
+        "name": "Maurício Mutte",
+        "email": "mauricio@gmail.com"
+      },
+      "likes": 5,
+      "dislike": 0,
+      "created": "2022-05-02T02:06:00.248Z",
+      "id": 15
+    },
+    {
+      "description": "Porque o menino estava falando ao telefone deitado?\nPra não cair a ligação.",
+      "user": {
+        "name": "Douglas Moraes",
+        "email": "douglas@gmail.com"
+      },
+      "likes": 3,
+      "dislike": 2,
+      "created": "2022-05-02T02:07:13.000Z",
+      "id": 16
     }
   ]
 }

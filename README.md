@@ -10,7 +10,7 @@ Só piada boa is a better place to you find the better jokes to tell to your fri
 ## Steps to run the project
 ### Clone
 ```
-git clone git@github.com:RobertDS07/triider_frontend_challenge.git
+git clone git@github.com:RobertDS07/so_piada_boa.git
 ```
 ### Install dependencies
 ```

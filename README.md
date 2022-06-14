@@ -1,4 +1,4 @@
-# Triider frontend challenge
+# Só piada boa
 
 <img src="https://i.pinimg.com/originals/f1/1c/58/f11c585e2a4f3235de9270e0a2a37016.png" align="right" alt="fake logo" width="60" height="60">
 
